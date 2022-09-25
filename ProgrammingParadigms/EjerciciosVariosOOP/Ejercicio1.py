@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Ejercicio 1
 Escribir una clase en python que convierta un número entero a número romano
@@ -50,7 +49,7 @@ class IntToRoman:
                         individualRomanString += self.uniqueRomanSymbols[index]
                         digitList[digitIndex] -= self.uniqueRomanValues[index]
                         print(digitList[digitIndex])
-                        break;
+                        break
             romanString += individualRomanString
             print(digitList)
         return romanString
