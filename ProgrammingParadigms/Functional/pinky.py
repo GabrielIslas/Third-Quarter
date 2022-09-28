@@ -1,3 +1,6 @@
+
+
+
 def Animal(iq, species, capabilities):
     return [iq, species, capabilities]
 
