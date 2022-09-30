@@ -3,7 +3,7 @@ def ArbolBinario(raiz):
     return [raiz,[],[]]
 # insert element to the left of the node
 def insertIzquierda(raiz,nuevoValor):
-    (rama_izquierda) = raiz.pop(1)
+    rama_izquierda = raiz.pop(1)
     if len(rama_izquierda) > 1:
         raiz.insert(1,[nuevoValor,rama_izquierda,[]])
     else:
@@ -20,6 +20,7 @@ def insertDerecha(raiz,nuevoValor):
 # returns de list of nodes with their levels [nodeValue, level]
 def niveles(raiz, nivel = 0, listaNiveles = []):
     nivelesI(raiz, nivel, listaNiveles)
+    print(listaNiveles)
     return listaNiveles
 # secondary function for the list of nodes, this one actually modifies the list
 # previous function is in charge of starting the process, and returning the finished list
