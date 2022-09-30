@@ -19,4 +19,3 @@ def uniqueElements(list1, list2):
 list1 = [1,2,3,5,6]
 list2 = [6,3,2,3]
 uniqueElements(list1, list2)
-
