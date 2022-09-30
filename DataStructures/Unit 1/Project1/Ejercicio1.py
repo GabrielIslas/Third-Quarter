@@ -8,11 +8,11 @@ def uniqueElements(list1, list2):
     # if element in list 1 is not in list 2, then it is unique
     for number in list1:
         if number not in list2:
-            listResult.append(x)
+            listResult.append(number)
     # if element in list 2 is not in list 1, then it is unique
     for number in list2:
         if number not in list1:
-            listResult.append(x)
+            listResult.append(number)
     # print list of unique elements
     print(listResult)
 
