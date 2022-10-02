@@ -150,4 +150,4 @@ addSpecificIQ = lambda animalIQ: Animal.superiorIntelligence(animalIQ, 100)
 experiment = Experiment(animalTest, [Animal.pinkify, addSpecificIQ, Animal.superpowers], Animal.anthropomorphic)
 print(experiment.successfulExperiment())
 
-Animal.generateWords(4)
+# Animal.generateWordsUpTo(4)
