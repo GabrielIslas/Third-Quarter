@@ -23,5 +23,4 @@ ginger = pollo("ginger", 8000000, 150)
 rocky = pollo("rocky", 1000000, 300)
 little = pollo("little", 500000, 100)
 
-
-
+print(ginger)
