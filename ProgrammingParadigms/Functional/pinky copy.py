@@ -8,9 +8,9 @@ pinkify = lambda animal: (animal[0], animal[1], [])
 
 def superpowers(animal):
     if animal[1] == "elephant":
-        return (animal[0], animal[1], animal[2].append("not to be afraid of mice"))
+        return (animal[0], animal[1], animal[2] + ["not to be afraid of mice"])
     elif animal[1] == "mouse" and animal[0] > 100:
-        return (animal[0], animal[1], animal[2].append("speak"))
+        return (animal[0], animal[1], animal[2] + ["speak"])
     else:
         return animal
 
