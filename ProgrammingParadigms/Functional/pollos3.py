@@ -1,5 +1,5 @@
 from math import pi
-
+# 
 pollo = lambda nombre, dias, peso, habilidades: (nombre, dias, peso, habilidades)
 
 edad = lambda pollo: pollo[1] / (pi * 365 ** 2)
@@ -20,7 +20,7 @@ marcelito = lambda pollo: (pollo[0], pollo[1], pollo[2], [])
 
 marceñano = lambda pollo: arguiniano(marcelito(pollo))
 
-planeta = lambda pollo: []
+planeta = lambda pollo: [pollo]
 
 addPollo = lambda planeta, pollo: [] + [pollo]
 

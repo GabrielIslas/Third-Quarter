@@ -14,7 +14,7 @@ def superpowers(animal):
     else:
         return animal
 
-anthropomorphic = lambda animal: True if animal[0] > 60 and "speak" in animal[1] else False
+anthropomorphic = lambda animal: True if animal[0] > 60 and "speak" in animal[2] else False
 
 def pinkiesco(ability):
     abilityWords = ability.split(" ") # Divide ability into list based on whitespace
@@ -48,6 +48,7 @@ def generateWords(length):
         return
     elif length == 3 or length == 4: # Get consonant combinations for words of 3 and 4
         consonants = list(product(consonants, repeat = length - 1)) # Cartesian product of letters
+        print(consonants)
         for index in range(len(consonants)):
             consonants[index] = "".join(consonants[index]) # Convert tuples into strings
     for index in range(length): # Combine vowels with consonants
@@ -72,7 +73,7 @@ class Experiment:
         animalCopy = self.animal
         for transformation in self.transformations: # Apply functions as transformations
             print(animalCopy)
-            transformation(animalCopy)
+            animalCopy = transformation(animalCopy)
         print(animalCopy)
         self.resultingAnimal = animalCopy # Save resulting animal for future use
         return self.criteria(animalCopy)
@@ -127,6 +128,10 @@ animalTest = Animal(17, "mouse", ["destroy the world", "make soulless plans"])
 
 print(animalTest)
 # Lambda function that adds an specific amount of IQ
-addSpecificIQ = lambda animalIQ: Animal.superiorIntelligence(animalIQ, 100)
+addSpecificIQ = lambda animalIQ: superiorIntelligence(animalIQ, 1)
 
-print(pinkiesco("do naf"))
+experiment = Experiment(animalTest, [pinkify, addSpecificIQ, superpowers], anthropomorphic)
+
+print(experiment.successfulExperiment())
+
+generateWords(3)
