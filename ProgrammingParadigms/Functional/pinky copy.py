@@ -128,3 +128,5 @@ animalTest = Animal(17, "mouse", ["destroy the world", "make soulless plans"])
 print(animalTest)
 # Lambda function that adds an specific amount of IQ
 addSpecificIQ = lambda animalIQ: Animal.superiorIntelligence(animalIQ, 100)
+
+print(pinkiesco("do naf"))
