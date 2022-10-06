@@ -18,19 +18,22 @@ miyagi = lambda pollo: (pollo[0], pollo[1], pollo[2], pollo[3] + ["karate"]) if 
 
 marcelito = lambda pollo: (pollo[0], pollo[1], pollo[2], [])
 
-marceñano = lambda pollo: arguiniano(marcelito(pollo))
+marcenano = lambda pollo: arguiniano(marcelito(pollo))
 
 planeta = lambda pollo: [pollo]
 
-addPollo = lambda planeta, pollo: [] + [pollo]
+addPollo = lambda planeta, pollo: planeta + [pollo]
 
-polloDebil = lambda pollo: pollo[3] > 2
+polloDebil = lambda pollo: len(pollo[3]) > 2 and esAdulto(pollo)
 
 esDebil = lambda planeta: sum(map(polloDebil, planeta)) == 0
 
 entrenar = lambda planeta, entrenador: list(map(entrenador, planeta))
 
-hacerViajeEspiritual = lambda entrenadores, pollo: [f(pollo) for f in entrenadores]
+def hacerViajeEspiritual(entrenadores, pollo):
+    for entrenador in entrenadores:
+        pollo = entrenador(pollo)
+    return pollo
 
 raton = lambda peso, altura, bigotes: (peso, altura, bigotes)
 
@@ -47,6 +50,9 @@ def alimentar(alpiste, pollo):
         return engordar(alpiste * 0.5, pollo)
     return pollo
 
+
 ginger = pollo("ginger", 8000000, 150, [])
 rocky = pollo("rocky", 1000000, 300, [])
 little = pollo("little", 500000, 100, [])
+
+print(ginger)
