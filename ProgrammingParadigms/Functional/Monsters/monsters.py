@@ -2,7 +2,7 @@ grito = lambda onomatopeya, intensidad, mojoLaCama: (onomatopeya, intensidad, mo
 
 ninio = lambda nombre, edad, altura: (nombre, edad, altura)
 
-energiaDeGrito = lambda grito: len(grito[0]) * (grito[1] ** 2) if grito[2] else 3 * len(grito[1]) + grito[2]
+energiaDeGrito = lambda grito: len(grito[0]) * (grito[1] ** 2) if grito[2] else 3 * len(grito[0]) + grito[1]
 
 sullivan = lambda ninio: ("A" * len(ninio[0] + "GH"), 20 / ninio[1], True if ninio[1] < 3 else False)
 
