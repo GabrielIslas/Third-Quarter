@@ -1,0 +1,25 @@
+		 Welcome to UPY's store
+ Bill number:8170
+ Customer name:Erik
+ Phone number :8984675011
+ Customer email:Erik@hotmail.com
+=====================================================
+ Products				Qty	Price
+===================================================== Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+ Instax mini				1	4600
+
+=====================================================
+ Sub amount:			$.59800.00
+ Tax amount:			$.552.00
+ Total amount:			$.60352.00
+=====================================================

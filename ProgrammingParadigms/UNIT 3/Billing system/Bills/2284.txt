@@ -1,0 +1,17 @@
+		 Welcome to UPY's store
+ Bill number:2284
+ Customer name:Cyn
+ Phone number :56868
+ Customer email:cyn.com
+=====================================================
+ Products				Qty	Price
+===================================================== Galaxy A22				1	3950
+ Galaxy A22				1	3950
+ Galaxy A22				1	3950
+ Galaxy A22				1	3950
+
+=====================================================
+ Sub amount:			$.19750.00
+ Tax amount:			$.158.00
+ Total amount:			$.19908.00
+=====================================================

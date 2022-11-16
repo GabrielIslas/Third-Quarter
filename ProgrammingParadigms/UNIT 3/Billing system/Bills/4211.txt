@@ -1,0 +1,17 @@
+		 Welcome to UPY's store
+ Bill number:4211
+ Customer name:fgjfgjfj
+ Phone number :6747u46
+ Customer email:fgjfgjf
+=====================================================
+ Products				Qty	Price
+===================================================== Binden S7				1	3749
+ Binden S7				1	3749
+ Binden S7				1	3749
+ Binden S7				1	3749
+
+=====================================================
+ Sub amount:			$.18745.00
+ Tax amount:			$.149.96
+ Total amount:			$.18894.96
+=====================================================

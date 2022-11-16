@@ -1,0 +1,18 @@
+		 Welcome to UPY's store
+ Bill number:9993
+ Customer name:hgj
+ Phone number :457547
+ Customer email:fjgjfgjk
+=====================================================
+ Products				Qty	Price
+===================================================== LED strip				1	399
+ LED strip				1	399
+ LED strip				1	399
+ LED strip				1	399
+ LED strip				1	399
+
+=====================================================
+ Sub amount:			$.2394.00
+ Tax amount:			$.19.95
+ Total amount:			$.2413.95
+=====================================================
