@@ -1,0 +1,18 @@
+		 Welcome to UPY's store
+ Bill number:1769
+ Customer name:hfghfg
+ Phone number :675676
+ Customer email:fgjfg
+=====================================================
+ Products				Qty	Price
+===================================================== VAK VD-534K				1	4361
+ VAK VD-534K				1	4361
+ VAK VD-534K				1	4361
+ VAK VD-534K				1	4361
+ VAK VD-534K				1	4361
+
+=====================================================
+ Sub amount:			$.26166.00
+ Tax amount:			$.218.05
+ Total amount:			$.26384.05
+=====================================================

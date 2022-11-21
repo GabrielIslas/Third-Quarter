@@ -1,0 +1,17 @@
+		 Welcome to UPY's store
+ Bill number:3270
+ Customer name:Karina Campos
+ Phone number :9994395101
+ Customer email:karina@gmail.com
+=====================================================
+ Products				Qty	Price
+===================================================== iPhone Xr				1	12000
+ iPhone 11				1	16000
+ iPhone 12				2	38000
+ iPhone 13				1	250000
+
+=====================================================
+ Sub amount:			$.326000.00
+ Tax amount:			$.760.00
+ Total amount:			$.326760.00
+=====================================================
